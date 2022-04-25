@@ -12,3 +12,13 @@ h1#principal{
     color:rgb(40, 87, 57);
     border: 2px solid rgb(23, 134, 128);
 }
+
+div.agrupamento{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(253, 254, 254);
+    background-color: brown;
+    border: 2px solid rgb(15, 16, 15);
+    margin:10px;
+    padding: 10px;
+}
