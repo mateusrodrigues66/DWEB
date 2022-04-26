@@ -22,3 +22,54 @@ div.agrupamento{
     margin:10px;
     padding: 10px;
 }
+.bloco1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(210, 95, 23);
+    color: rgb(246, 250, 250);
+    border: 1px solid orange;
+    margin:15px;
+    padding: 20px;
+    width: 80px;
+    height: 20px;
+
+}
+
+.bloco2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(210, 95, 23);
+    color:aliceblue;
+    border:1px solid orange;
+    margin:15px;
+    padding:20px;
+    width:100px;
+    height: 30px;
+}
+
+.personalizado{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(23, 195, 210);
+    border: 2px solid gray;
+    margin:10px;
+    padding:20px;
+
+
+}
+.personalizado:hover{ 
+    color:rgb(251, 251, 253);
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+.pseudo > span{
+    display:none;
+}
+.pseudo:hover>span{
+    display:block;
+}
+
+h3::selection{
+    color: chartreuse;
+    background-color: blueviolet;
+}
