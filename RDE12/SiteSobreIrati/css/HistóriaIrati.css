@@ -27,3 +27,17 @@ img{
 p{
     text-align: center;
 }
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:azure;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    
+}
+
+.p2{
+    text-align:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
