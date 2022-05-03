@@ -1,0 +1,62 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image:linear-gradient(to right, #403D31, #D9AA71);/*gradient vai para direita "to right"*/
+    width:90%; /*utilizar 90%, ideal para todos dispositivos*/
+    margin: 0 auto; /*sempre irá manter o texto centralizado*/
+
+}
+header{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #403D31;
+    border-radius: 10px; /*acabamento interno, arredondar retangulo*/
+    margin-top: 10px; /*descolar do topo*/
+}
+.logo img{  /*especifico a classe e na sequencia qual o seletor que necessito usar*/
+   width:45%;
+   padding-top:30px; /*descolar do topo*/
+}
+.navegacao{
+    overflow:hidden; 
+
+}
+.navegacao a{
+    float: right; /*ir para o canto direito*/
+    display: block;
+    color:#BF9A78;
+    text-decoration:none;   /*nao mostrar de forma de hiperlink*/
+    text-align: right; /*alinhar a direita*/
+    padding:10px; /*separar laterais e em cima e em baixo*/
+}
+.navegacao a:hover{   /*hover quando o mouse passa por cima ele faz algum tipo de efeito*/
+color:#BFB6AE;
+background-color: #8C6542;
+border-radius: 4px;    
+}
+
+/*.principal{
+    display: flex;  /*Divisão dos txtos layout, ditruibui bem exato*/
+
+
+.conteudo{            /*estilo padrão para todos os conteúdos*/
+    float:left; /* a esquerda*/
+    margin: 15px 2px 25px 2px; /*Definição da margem em cima direita, em baixo esquerda*/
+    width:30%;
+    background-color: #BFB6AE;
+    border-radius: 5px;
+    text-align: justify;  /*justificar  texto*/
+    padding:15px;  /*para descolar*/
+    box-shadow: 10px 10px 10px #403D31;   /*leve sombreado, sombras*/
+}
+.rodape{
+    color:darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:800px){  /*se chegar uma largura máxima até 800px */
+    .principal, .conteudo{
+        width:100%; /*tudo fica 100%*/
+        padding:0px; 
+    }
+
+}
